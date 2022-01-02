@@ -1,0 +1,15 @@
+Ref: https://blog.logrocket.com/packaging-a-rust-web-service-using-docker/
+
+To build this container, simply execute the following.
+docker build -t baton -f ./Dockerfile .
+
+You can then execute it using:
+docker run -p 8001:8001 baton
+
+
+Alternativas Kong:
+pm2
+
+DB:
+ArangoDB
+Strapi.io
